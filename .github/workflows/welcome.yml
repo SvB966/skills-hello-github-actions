@@ -9,7 +9,7 @@ jobs:
     name: Post welcome comment
     runs-on: ubuntu-latest  # cheapest hosted runner :contentReference[oaicite:7]{index=7}
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: Post welcome comment
         uses: peter-evans/create-or-update-comment@v2
         with:
